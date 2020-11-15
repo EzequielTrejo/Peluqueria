@@ -27,6 +27,7 @@ namespace Pelu_Shifts
 
         public Negocios.NegTurno objNegTurno = new Negocios.NegTurno();
         public Negocios.NegCliente objNegCliente = new Negocios.NegCliente();
+        int cont = 0;
 
         #region Constructor
 
@@ -161,12 +162,12 @@ namespace Pelu_Shifts
 
         #endregion
 
-        private void btModificar_Click(object sender, EventArgs e) //NO FUNCIONA
+        private void btModificar_Click(object sender, EventArgs e)
         {            
             objNegTurno.abmTurno("Modificar", objTurno);
         }
 
-        private void BtCancelar_Click(object sender, EventArgs e) // NO ESTÁ TERMINADO
+        private void BtCancelar_Click(object sender, EventArgs e)
         {
             objNegTurno.abmTurno("Cancelar", objTurno);
         }
@@ -187,7 +188,8 @@ namespace Pelu_Shifts
                     {
                         if(temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "9:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(1);
+                            //cmbHorarios.Items.RemoveAt(1);
+                            cmbHorarios.Items[1] = Enabled = false;
                             V++;
                         }
                         else if(temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "12:00hs")
@@ -292,6 +294,26 @@ namespace Pelu_Shifts
         {
             lblfecha.Text = DateTime.Now.ToLongDateString();
             lblhora.Text = DateTime.Now.ToString("hh:mm:ss");
+
+            if(cmbPeluquero.Items.Count == 0)
+            {
+                cont = 1;
+            }
+
+            if(cmbHorarios.Items.Count == 0)
+            {
+                cont = 2;
+            }
+
+            if(cmbDias.Items.Count == 0)
+            {
+                cont = 3;
+            }
+        }
+
+        private void cmbHorarios_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

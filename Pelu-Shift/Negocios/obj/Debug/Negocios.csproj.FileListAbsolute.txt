@@ -12,3 +12,17 @@ C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Negocios\obj\Debug
 C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Negocios\obj\Debug\Negocios.csproj.CopyComplete
 C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Negocios\obj\Debug\Negocios.dll
 C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Negocios\obj\Debug\Negocios.pdb
+E:\Github\Peluqueria\Pelu-Shift\Negocios\bin\Debug\Negocios.dll
+E:\Github\Peluqueria\Pelu-Shift\Negocios\bin\Debug\Negocios.pdb
+E:\Github\Peluqueria\Pelu-Shift\Negocios\bin\Debug\Datos.dll
+E:\Github\Peluqueria\Pelu-Shift\Negocios\bin\Debug\Entidades.dll
+E:\Github\Peluqueria\Pelu-Shift\Negocios\bin\Debug\Microsoft.Analytics.Interfaces.dll
+E:\Github\Peluqueria\Pelu-Shift\Negocios\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+E:\Github\Peluqueria\Pelu-Shift\Negocios\bin\Debug\Microsoft.Analytics.Types.dll
+E:\Github\Peluqueria\Pelu-Shift\Negocios\bin\Debug\Datos.pdb
+E:\Github\Peluqueria\Pelu-Shift\Negocios\bin\Debug\Entidades.pdb
+E:\Github\Peluqueria\Pelu-Shift\Negocios\obj\Debug\Negocios.csprojAssemblyReference.cache
+E:\Github\Peluqueria\Pelu-Shift\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+E:\Github\Peluqueria\Pelu-Shift\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+E:\Github\Peluqueria\Pelu-Shift\Negocios\obj\Debug\Negocios.dll
+E:\Github\Peluqueria\Pelu-Shift\Negocios\obj\Debug\Negocios.pdb

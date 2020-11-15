@@ -129,6 +129,7 @@
             this.cmbHorarios.Size = new System.Drawing.Size(146, 24);
             this.cmbHorarios.TabIndex = 0;
             this.cmbHorarios.TabStop = false;
+            this.cmbHorarios.SelectedIndexChanged += new System.EventHandler(this.cmbHorarios_SelectedIndexChanged);
             // 
             // BtReservar
             // 

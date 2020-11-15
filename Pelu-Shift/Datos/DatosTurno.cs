@@ -14,14 +14,8 @@ namespace Datos
 
         public DataTable TraerDisponibilidad(string Nombre)
         {
-            string orden = string.Empty;
-            orden = "Exec SP_Turno @Pelu = " + "\'"  + Nombre + "\'";
-
-            SqlDataAdapter da = new SqlDataAdapter(orden, cn);
-            da.SelectCommand.CommandType = CommandType.StoredProcedure;
-            da.SelectCommand.Parameters.AddWithValue("@Pelu", Nombre);
             DataTable Temp = new DataTable();
-            da.Fill(Temp);
+            Temp = Select(Nombre);
             return Temp;
         }
 
@@ -105,5 +99,34 @@ namespace Datos
 
             return ds;
         }
+
+        public DataTable Select(string Name)
+        {
+            string orden = string.Empty;
+                orden = "Select * from Peluquero where Nombre = " + "'" + Name + "'" + ";";
+            SqlCommand cmd = new SqlCommand(orden, cn);
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter();
+            try
+            {
+                cn.Open();
+                cmd.ExecuteNonQuery();
+                da.SelectCommand = cmd;
+                da.Fill(dt);
+            }
+            catch(Exception e)
+            {
+
+                throw new Exception("Error al listar Disponibilidad", e);
+            }
+
+            finally
+            {
+                CerrarConexion();
+                cmd.Dispose();
+            }
+            return dt;
+        }
+
     }
 }
