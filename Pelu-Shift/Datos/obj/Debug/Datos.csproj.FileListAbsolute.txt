@@ -1,0 +1,12 @@
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Datos\bin\Debug\Datos.dll
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Datos\bin\Debug\Datos.pdb
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Datos\bin\Debug\Entidades.dll
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Datos\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Datos\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Datos\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Datos\bin\Debug\Entidades.pdb
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Datos\obj\Debug\Datos.dll
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Datos\obj\Debug\Datos.pdb
