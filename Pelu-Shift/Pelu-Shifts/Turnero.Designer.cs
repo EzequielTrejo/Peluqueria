@@ -46,7 +46,6 @@
             this.label11 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.txtCliente = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
             this.cmbDias = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -56,7 +55,6 @@
             this.cmbPeluquero = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtDni = new System.Windows.Forms.TextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblfecha = new System.Windows.Forms.Label();
             this.lblhora = new System.Windows.Forms.Label();
@@ -264,18 +262,6 @@
             this.txtCliente.Size = new System.Drawing.Size(140, 20);
             this.txtCliente.TabIndex = 1;
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Palatino Linotype", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(336, 249);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(62, 32);
-            this.label13.TabIndex = 22;
-            this.label13.Text = "DNI";
-            // 
             // cmbDias
             // 
             this.cmbDias.BackColor = System.Drawing.Color.White;
@@ -408,14 +394,6 @@
             this.label2.TabIndex = 32;
             this.label2.Text = "Nombre";
             // 
-            // txtDni
-            // 
-            this.txtDni.BackColor = System.Drawing.Color.White;
-            this.txtDni.Location = new System.Drawing.Point(342, 287);
-            this.txtDni.Name = "txtDni";
-            this.txtDni.Size = new System.Drawing.Size(140, 20);
-            this.txtDni.TabIndex = 31;
-            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
@@ -453,14 +431,12 @@
             this.Controls.Add(this.lblhora);
             this.Controls.Add(this.lblfecha);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtDni);
             this.Controls.Add(this.cmbPeluquero);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.btModificar);
             this.Controls.Add(this.BtCancelar);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.cmbDias);
-            this.Controls.Add(this.label13);
             this.Controls.Add(this.txtCliente);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
@@ -504,7 +480,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox txtCliente;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ComboBox cmbHorarios;
@@ -515,7 +490,6 @@
         private System.Windows.Forms.ComboBox cmbPeluquero;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtDni;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label lblfecha;
         private System.Windows.Forms.Label lblhora;
