@@ -181,101 +181,281 @@ namespace Pelu_Shifts
             switch(cmbPeluquero.SelectedItem)
             {
                 case "Ana Luque":
-                    int V = 0;
+
                     temp = dt.TraerDisponibilidad("Ana Luque");
                     for(int i = 0; i < temp.Rows.Count; i++)
                     {
+                        //Martes
                         if(temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "9:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(1);
-                            V++;
+                            MessageBox.Show ("Este horario ya fue reservado");
                         }
                         else if(temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "12:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(2);
-                            V++;
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
                         else if(temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "17:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(3);
-                            V++;
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
                         else if(temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "20:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(4);
-                            V++;
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
-
-                        if(V == 4)
+                        //Miercoles
+                        else if (temp.Rows[i]["Dia"] == "Miercoles" && temp.Rows[i]["Horario"] == "9:00hs")
                         {
-                            cmbDias.Items.RemoveAt(1);
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Miercoles" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Miercoles" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Miercoles" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        //Jueves
+                        else if (temp.Rows[i]["Dia"] == "Jueves" && temp.Rows[i]["Horario"] == "9:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Jueves" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Jueves" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Jueves" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        //Viernes
+                        else if (temp.Rows[i]["Dia"] == "Viernes" && temp.Rows[i]["Horario"] == "9:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Viernes" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Viernes" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Viernes" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        //Sabado
+                        else if (temp.Rows[i]["Dia"] == "Sabado" && temp.Rows[i]["Horario"] == "9:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Sabado" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Sabado" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Sabado" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
                     }
                     break;
 
                 case "José Ramos":
-                    int J = 0;
+
                     temp = dt.TraerDisponibilidad("José Ramos");
                     for (int i = 0; i < temp.Rows.Count; i++)
                     {
+                        //Martes
                         if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "9:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(1);
-                            J++;
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
                         else if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "12:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(2);
-                            J++;
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
                         else if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "17:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(3);
-                            J++;
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
                         else if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "20:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(4);
-                            J++;
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
-
-                        if (J == 4)
+                        //Miercoles
+                        else if (temp.Rows[i]["Dia"] == "Miercoles" && temp.Rows[i]["Horario"] == "9:00hs")
                         {
-                            cmbDias.Items.RemoveAt(1);
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Miercoles" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Miercoles" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Miercoles" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        //Jueves
+                        else if (temp.Rows[i]["Dia"] == "Jueves" && temp.Rows[i]["Horario"] == "9:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Jueves" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Jueves" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Jueves" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        //Viernes
+                        else if (temp.Rows[i]["Dia"] == "Viernes" && temp.Rows[i]["Horario"] == "9:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Viernes" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Viernes" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Viernes" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        //Sabado
+                        else if (temp.Rows[i]["Dia"] == "Sabado" && temp.Rows[i]["Horario"] == "9:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Sabado" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Sabado" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Sabado" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
                     }
 
                     break;
 
                 case "Lucia Perez":
-                    int R = 0;
+
                     temp = dt.TraerDisponibilidad("Lucia Perez");
                     for (int i = 0; i < temp.Rows.Count; i++)
                     {
+                        //Martes
                         if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "9:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(1);
-                            R++;
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
                         else if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "12:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(2);
-                            R++;
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
                         else if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "17:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(3);
-                            R++;
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
                         else if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "20:00hs")
                         {
-                            cmbHorarios.Items.RemoveAt(4);
-                            R++;
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
-
-                        if (R == 4)
+                        //Miercoles
+                        else if (temp.Rows[i]["Dia"] == "Miercoles" && temp.Rows[i]["Horario"] == "9:00hs")
                         {
-                            cmbDias.Items.RemoveAt(1);
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Miercoles" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Miercoles" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Miercoles" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        //Jueves
+                        else if (temp.Rows[i]["Dia"] == "Jueves" && temp.Rows[i]["Horario"] == "9:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Jueves" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Jueves" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Jueves" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        //Viernes
+                        else if (temp.Rows[i]["Dia"] == "Viernes" && temp.Rows[i]["Horario"] == "9:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Viernes" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Viernes" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Viernes" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        //Sabado
+                        else if (temp.Rows[i]["Dia"] == "Sabado" && temp.Rows[i]["Horario"] == "9:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Sabado" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Sabado" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Sabado" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            MessageBox.Show("Este horario ya fue reservado");
                         }
                     }
 
