@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Cliente  
+    public class Cliente
     {
-        public string Nombre { get; set; }
+        public string Nombre { get ; set; }
 
     }
 }

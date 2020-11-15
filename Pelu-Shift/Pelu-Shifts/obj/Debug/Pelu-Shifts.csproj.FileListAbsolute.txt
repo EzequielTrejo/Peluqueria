@@ -1,0 +1,17 @@
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\obj\Debug\Pelu-Shifts.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\obj\Debug\Pelu_Shifts.Turnero.resources
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\obj\Debug\Pelu_Shifts.Properties.Resources.resources
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\obj\Debug\Pelu-Shifts.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\obj\Debug\Pelu-Shifts.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\bin\Debug\Pelu-Shifts.exe.config
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\bin\Debug\Pelu-Shifts.exe
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\bin\Debug\Pelu-Shifts.pdb
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\bin\Debug\Datos.dll
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\bin\Debug\Entidades.dll
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\bin\Debug\Negocios.dll
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\bin\Debug\Datos.pdb
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\bin\Debug\Entidades.pdb
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\bin\Debug\Negocios.pdb
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\obj\Debug\Pelu-Shifts.csproj.CopyComplete
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\obj\Debug\Pelu-Shifts.exe
+C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Pelu-Shifts\obj\Debug\Pelu-Shifts.pdb

@@ -32,6 +32,7 @@ namespace Pelu_Shifts
 
         private void Turnero_Load(object sender, EventArgs e)
         {
+            timer1.Enabled = true;
             cmbDias.Enabled = false;
             cmbHorarios.Enabled = false;
         }
@@ -49,8 +50,7 @@ namespace Pelu_Shifts
             lista.Columns.Add("Peluquero", typeof(string));
 
             dg.DataSource = lista;
-
-            
+    
         }
 
 
@@ -214,18 +214,84 @@ namespace Pelu_Shifts
                     break;
 
                 case "José Ramos":
+                    int J = 0;
+                    temp = dt.TraerDisponibilidad("José Ramos");
+                    for (int i = 0; i < temp.Rows.Count; i++)
+                    {
+                        if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "9:00hs")
+                        {
+                            cmbHorarios.Items.RemoveAt(1);
+                            J++;
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            cmbHorarios.Items.RemoveAt(2);
+                            J++;
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            cmbHorarios.Items.RemoveAt(3);
+                            J++;
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            cmbHorarios.Items.RemoveAt(4);
+                            J++;
+                        }
+
+                        if (J == 4)
+                        {
+                            cmbDias.Items.RemoveAt(1);
+                        }
+                    }
 
                     break;
 
                 case "Lucia Perez":
+                    int R = 0;
+                    temp = dt.TraerDisponibilidad("Lucia Perez");
+                    for (int i = 0; i < temp.Rows.Count; i++)
+                    {
+                        if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "9:00hs")
+                        {
+                            cmbHorarios.Items.RemoveAt(1);
+                            R++;
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "12:00hs")
+                        {
+                            cmbHorarios.Items.RemoveAt(2);
+                            R++;
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "17:00hs")
+                        {
+                            cmbHorarios.Items.RemoveAt(3);
+                            R++;
+                        }
+                        else if (temp.Rows[i]["Dia"] == "Martes" && temp.Rows[i]["Horario"] == "20:00hs")
+                        {
+                            cmbHorarios.Items.RemoveAt(4);
+                            R++;
+                        }
 
-                    break;
+                        if (R == 4)
+                        {
+                            cmbDias.Items.RemoveAt(1);
+                        }
+                    }
+
+                    break;  
             }
         }
 
         private void cmbDias_SelectedIndexChanged(object sender, EventArgs e)
         {
             cmbHorarios.Enabled = true;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblfecha.Text = DateTime.Now.ToLongDateString();
+            lblhora.Text = DateTime.Now.ToString("hh:mm:ss");
         }
     }
 }
