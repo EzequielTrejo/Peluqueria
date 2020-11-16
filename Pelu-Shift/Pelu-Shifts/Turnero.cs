@@ -473,5 +473,10 @@ namespace Pelu_Shifts
             lblfecha.Text = DateTime.Now.ToLongDateString();
             lblhora.Text = DateTime.Now.ToString("hh:mm:ss");
         }
+
+        private void cmbHorarios_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
