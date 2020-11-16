@@ -8,3 +8,13 @@ C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Entidades\obj\Debu
 C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Entidades\obj\Debug\Entidades.csproj.CopyComplete
 C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Entidades\obj\Debug\Entidades.dll
 C:\Users\Administrador\Documents\GitHub\Peluqueria\Pelu-Shift\Entidades\obj\Debug\Entidades.pdb
+E:\Github\Peluqueria\Pelu-Shift\Entidades\bin\Debug\Entidades.dll
+E:\Github\Peluqueria\Pelu-Shift\Entidades\bin\Debug\Entidades.pdb
+E:\Github\Peluqueria\Pelu-Shift\Entidades\bin\Debug\Microsoft.Analytics.Interfaces.dll
+E:\Github\Peluqueria\Pelu-Shift\Entidades\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+E:\Github\Peluqueria\Pelu-Shift\Entidades\bin\Debug\Microsoft.Analytics.Types.dll
+E:\Github\Peluqueria\Pelu-Shift\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+E:\Github\Peluqueria\Pelu-Shift\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\Github\Peluqueria\Pelu-Shift\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+E:\Github\Peluqueria\Pelu-Shift\Entidades\obj\Debug\Entidades.dll
+E:\Github\Peluqueria\Pelu-Shift\Entidades\obj\Debug\Entidades.pdb

@@ -76,6 +76,7 @@
             this.dg.ReadOnly = true;
             this.dg.Size = new System.Drawing.Size(801, 213);
             this.dg.TabIndex = 5;
+            this.dg.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dg_CellDoubleClick);
             // 
             // label4
             // 

@@ -43,7 +43,6 @@
     <Reference Include="Microsoft.Analytics.Types" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NegCliente.cs" />
     <Compile Include="NegTurno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

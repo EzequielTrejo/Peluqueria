@@ -26,20 +26,17 @@ namespace Datos
 
             if (accion == "Alta")
             {
-                orden = "Insert into Turno(Peluquero2, Dia, Horario) values('" + objTurno.Peluquero + "', '" + objTurno.Dia + "', '" + objTurno.Horario + "')";
+                orden = "Insert into Turno(NombreCliente, Peluquero2, Dia, Horario) values('" + objTurno.Nombre + "', '" + objTurno.Peluquero + "', '" + objTurno.Dia + "', '" + objTurno.Horario + "')";
             }
 
             if (accion == "Modificar")
             {
-                orden = "Update Turno set" 
-                    + " Dia = '" + objTurno.Dia + "'," 
-                    + " Horario = '" + objTurno.Horario + "'"
-                    + " where Peluquero2 = " + "\'" + objTurno.Peluquero + "\'";
+                orden = "Update Turno set NombreCliente = '" + objTurno.Nombre + "'," + "Dia = '" + objTurno.Dia + "'," + "Horario = '" + objTurno.Horario + "'," + "Peluquero2 = '" + objTurno.Peluquero + "'" + "where NombreCliente = " + "'" + objTurno.Nombre + "'";
             }
 
             if (accion == "Cancelar")
             {
-                orden = "delete from Turno where Dia = " + objTurno.Dia + "' and " + "Horario = '" + objTurno.Horario + "' and " + "Peluquero2 = '" + objTurno.Peluquero + "')";
+                orden = "delete from Turno where NombreCliente = '" + objTurno.Nombre + "' and " + " Dia = '" + objTurno.Dia + "' and " + "Horario = '" + objTurno.Horario + "' and " + "Peluquero2 = '" + objTurno.Peluquero + "'";
             }
 
             SqlCommand command = new SqlCommand(orden, cn);
@@ -62,20 +59,13 @@ namespace Datos
             return resultado;
         }
 
-        public DataSet ListarTurnos(string Cual)
+        public DataTable ListarTurnos()
         {
             string orden = string.Empty;
-            if (Cual != "todos")
-            {
-                orden = "Select * from Turno where Dia = " + int.Parse(Cual) + ";";
-            }
-            else
-            {
-                orden = "Select * from Turno;";
-            }
+            orden = "Select NombreCliente, Dia, Horario, Peluquero2 from Turno";
 
             SqlCommand cmd = new SqlCommand(orden, cn);
-            DataSet ds = new DataSet();
+            DataTable ds = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter();
 
             try
@@ -103,7 +93,7 @@ namespace Datos
         public DataTable Select(string Name)
         {
             string orden = string.Empty;
-                orden = "Select * from Peluquero where Nombre = " + "'" + Name + "'" + ";";
+                orden = "Select * from Turno where Peluquero2 = " + "'" + Name + "'" + ";";
             SqlCommand cmd = new SqlCommand(orden, cn);
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter();

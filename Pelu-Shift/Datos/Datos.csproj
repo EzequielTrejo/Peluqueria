@@ -43,7 +43,6 @@
     <Reference Include="Microsoft.Analytics.Types" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatosCliente.cs" />
     <Compile Include="DatosConexionDB.cs" />
     <Compile Include="DatosTurno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

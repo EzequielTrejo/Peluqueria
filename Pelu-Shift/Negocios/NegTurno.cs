@@ -17,11 +17,5 @@ namespace Negocios
         {
             return objDT.AbmTurno(accion, objTurno);
         }
-
-        public DataSet ListarTurnos(string Cual)
-        {
-            return objDT.ListarTurnos(Cual);
-        }
-
     }
 }
